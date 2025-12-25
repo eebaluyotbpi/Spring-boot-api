@@ -12,9 +12,4 @@ public class SpringBootDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootDemoApplication.class, args);
     }
-
-    @GetMapping
-    public String helloworld() {
-        return "Hello World!";
-    }
 }
